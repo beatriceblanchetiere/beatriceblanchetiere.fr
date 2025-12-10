@@ -1,16 +1,20 @@
 import HeroSection from "@/components/HeroSection";
-import BenefitsSection from "@/components/BenefitsSection";
+import ServicesSection from "@/components/ServicesSection";
+import ExpertiseSection from "@/components/ExpertiseSection";
+import ClientsSection from "@/components/ClientsSection";
 import TestimonialSection from "@/components/TestimonialSection";
-import CTASection from "@/components/CTASection";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
     <main className="min-h-screen">
       <HeroSection />
-      <BenefitsSection />
+      <ServicesSection />
+      <ExpertiseSection />
+      <ClientsSection />
       <TestimonialSection />
-      <CTASection />
+      <ContactSection />
       <Footer />
     </main>
   );
