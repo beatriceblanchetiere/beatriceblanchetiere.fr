@@ -25,21 +25,21 @@ const HeroSection = () => {
 
             {/* Main headline */}
             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground leading-tight mb-4 opacity-0 animate-fade-in-up animation-delay-100">
-              Coach professionnelle certifiée
+              Reprise & Création d'entreprise
             </h1>
 
             <p className="font-display text-xl md:text-2xl text-primary mb-6 opacity-0 animate-fade-in-up animation-delay-150">
-              Expertise en transitions et repositionnements stratégiques
+              Coaching stratégique pour dirigeants exigeants
             </p>
 
-            {/* Subheadline */}
-            <p className="text-lg text-muted-foreground max-w-xl mb-6 leading-relaxed opacity-0 animate-fade-in-up animation-delay-200">
-              Je vous accompagne pour clarifier votre projet, renforcer votre légitimité et passer à l'action avec confiance et alignement, que vous soyez entrepreneur, manager ou en transition professionnelle.
+            {/* Vision line */}
+            <p className="text-lg text-muted-foreground max-w-xl mb-4 leading-relaxed opacity-0 animate-fade-in-up animation-delay-200">
+              Vision • Positionnement • Décision
             </p>
 
             {/* Experience badge */}
             <p className="text-base font-medium text-foreground mb-8 opacity-0 animate-fade-in-up animation-delay-300">
-              <span className="text-primary">25 ans d'expérience</span> en marketing et leadership.
+              <span className="text-primary">25 ans d'expérience en marketing stratégique</span> · Certifiée Level 2 ICF
             </p>
 
             {/* CTA Buttons */}
