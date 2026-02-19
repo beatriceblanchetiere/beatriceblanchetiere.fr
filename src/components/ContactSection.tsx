@@ -61,7 +61,7 @@ const ContactSection = () => {
               </p>
               <Button variant="hero" size="lg" className="group w-fit" asChild>
                 <a
-                  href="https://calendly.com"
+                  href="https://calendly.com/bblanchetiere/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
