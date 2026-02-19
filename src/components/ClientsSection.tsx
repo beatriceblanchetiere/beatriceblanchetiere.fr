@@ -2,19 +2,19 @@ import { Briefcase, RefreshCw, GraduationCap } from "lucide-react";
 
 const clients = [
   {
-    icon: RefreshCw,
-    title: "Professionnels en transition",
-    description: "Vous questionnez votre parcours et cherchez à clarifier votre prochaine étape avec discernement.",
+    icon: Briefcase,
+    title: "Entrepreneurs",
+    description: "Vous voulez structurer et légitimer votre projet de reprise ou de création d'entreprise.",
   },
   {
-    icon: Briefcase,
-    title: "Entrepreneurs & managers",
-    description: "Vous voulez structurer et légitimer votre projet, ou évoluer dans votre positionnement de leader.",
+    icon: RefreshCw,
+    title: "Managers & cadres",
+    description: "En évolution ou en repositionnement, vous cherchez à affirmer votre posture de leader.",
   },
   {
     icon: GraduationCap,
-    title: "Étudiants & jeunes diplômés",
-    description: "En école de commerce, design ou luxe, vous préparez votre entrée dans le monde professionnel.",
+    title: "Professionnels en transition",
+    description: "Vous souhaitez clarifier votre prochaine étape avec discernement et confiance.",
   },
 ];
 
@@ -24,10 +24,10 @@ const ClientsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground mb-4">
-            Pourquoi ?
+            Pour qui ?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            J'accompagne ceux qui veulent avancer avec intention et construire un projet qui leur ressemble
+            Je travaille avec des profils exigeants qui s'engagent dans une reprise ou une création d'entreprise et veulent en faire une décision stratégique maîtrisée, pas un saut dans le vide.
           </p>
         </div>
 
