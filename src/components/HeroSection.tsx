@@ -22,9 +22,7 @@ const HeroSection = () => {
             </p>
 
             <p className="text-base md:text-lg text-muted-foreground max-w-xl mb-10 leading-relaxed opacity-0 animate-fade-in-up animation-delay-200">
-              Je vous accompagne pour clarifier votre projet, renforcer votre
-              légitimité et passer à l'action avec confiance — que vous soyez
-              entrepreneur, manager ou en transition professionnelle.
+              Vous venez de reprendre une entreprise ou de lancer la vôtre, et soudain, vous réalisez que personne ne vous a vraiment préparé à ça — ni à la solitude des décisions, ni à la question de la légitimité.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-up animation-delay-300">
