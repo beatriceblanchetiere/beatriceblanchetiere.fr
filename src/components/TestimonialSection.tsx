@@ -17,11 +17,8 @@ const testimonials = [
 
 const TestimonialSection = () => {
   return (
-    <section className="py-24 bg-hero-gradient relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
-
-      <div className="container mx-auto px-6 relative z-10">
+    <section className="py-20 md:py-28 bg-background">
+      <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground mb-4">
             Ils en parlent
@@ -32,18 +29,16 @@ const TestimonialSection = () => {
           {testimonials.map((t, index) => (
             <div
               key={index}
-              className="bg-card/60 backdrop-blur-sm rounded-2xl p-8 shadow-card border border-border/30"
+              className="bg-card rounded-2xl p-8 shadow-card border border-border/40"
             >
-              <div className="w-10 h-10 bg-accent/20 rounded-full flex items-center justify-center mb-6">
-                <Quote className="w-5 h-5 text-accent" />
-              </div>
+              <Quote className="w-8 h-8 text-primary/30 mb-5" />
               <blockquote>
                 <p className="font-display text-lg text-foreground leading-relaxed mb-6 italic">
-                  "{t.text}"
+                  « {t.text} »
                 </p>
                 <footer className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center">
-                    <span className="font-display text-lg font-semibold text-primary">{t.initial}</span>
+                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
+                    <span className="font-display text-base font-semibold text-primary">{t.initial}</span>
                   </div>
                   <div>
                     <span className="font-semibold text-foreground block text-sm">{t.name}</span>
