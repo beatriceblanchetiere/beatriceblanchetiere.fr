@@ -39,7 +39,7 @@ const ContactSection = () => {
             {/* Calendly CTA */}
             <div className="bg-background/5 backdrop-blur-sm rounded-2xl p-8 border border-background/10 flex flex-col justify-center">
               <Calendar className="w-10 h-10 text-primary mb-6" />
-              <h3 className="font-display text-2xl font-semibold text-background mb-4">
+              <h3 className="font-display text-2xl font-semibold text-background mb-4 sr-only">
                 Planifier un échange
               </h3>
               <Button variant="hero" size="lg" className="w-fit group" asChild>

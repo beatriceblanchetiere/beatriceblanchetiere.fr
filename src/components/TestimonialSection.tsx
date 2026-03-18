@@ -9,9 +9,9 @@ const testimonials = [
   },
   {
     text: "Son accompagnement m'a permis de clarifier mon projet en 2 séances seulement.",
-    name: "Claire",
+    name: "Marie",
     role: "Professionnelle en reconversion",
-    initial: "C",
+    initial: "M",
   },
 ];
 

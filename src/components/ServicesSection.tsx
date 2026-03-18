@@ -63,11 +63,6 @@ const ServicesSection = () => {
                   : "border border-border/40"
               }`}
             >
-              {offer.featured && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-xs font-semibold px-4 py-1 rounded-full">
-                  Gratuit
-                </div>
-              )}
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary/15 transition-colors">
                 <offer.icon className="w-6 h-6 text-primary" />
               </div>
