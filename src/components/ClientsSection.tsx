@@ -27,7 +27,7 @@ const ClientsSection = () => {
             Pour qui ?
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Je travaille avec des profils qui veulent prendre leur place de dirigeant avec clarté, confiance et méthode.
+            Je travaille avec des créateurs et repreneurs qui choisissent de prendre leur place de dirigeant avec confiance et méthode.
           </p>
         </div>
 
