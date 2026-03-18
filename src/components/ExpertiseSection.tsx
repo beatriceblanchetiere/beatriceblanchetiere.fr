@@ -19,13 +19,13 @@ const ExpertiseSection = () => {
 
           <div className="bg-background rounded-2xl p-8 md:p-10 border border-border/40 shadow-card mb-10">
             <p className="text-muted-foreground leading-relaxed mb-5 text-base">
-              Coach certifiée <span className="text-foreground font-medium">(ICF Level 2 et RNCP)</span> et experte en transitions professionnelles, j'accompagne depuis plusieurs années des profils exigeants dans leurs décisions professionnelles.
+              Coach certifiée <span className="text-foreground font-medium">ICF Level 2 & RNCP</span>, j'accompagne des créateurs et repreneurs d'entreprise dans leurs décisions les plus structurantes.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-5 text-base">
-              Mon parcours allie <span className="text-foreground font-medium">25 ans d'expérience en marketing stratégique (LVMH)</span>, entrepreneuriat (500 clients avec URBAIN, institut au masculin) et formation (Audencia, ISG).
+              Mon parcours est celui d'une entrepreneuse : le marketing stratégique chez <span className="text-foreground font-medium">LVMH</span>, la création d'<span className="text-foreground font-medium">URBAIN</span> — institut de soin au masculin, plus de 500 clients accompagnés — puis le développement d'une activité de formation auprès des grandes écoles de commerce, dont <span className="text-foreground font-medium">Audencia</span> et l'<span className="text-foreground font-medium">ISG</span>.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base">
-              Cette double expertise <span className="text-primary font-medium">stratégique et humaine</span> me permet de combiner vision, structure et profondeur.
+              Je sais ce que c'est que de se lancer, de douter, de chercher sa place tout en gardant le cap. C'est cette expérience — autant que mes certifications — qui me permet de vous accompagner avec <span className="text-primary font-medium">exigence et bienveillance</span>.
             </p>
           </div>
 

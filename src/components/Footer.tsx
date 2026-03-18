@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Phone } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
               Coach professionnelle certifiée ICF Level 2 & RNCP
             </p>
             <p className="text-muted-foreground text-sm mt-1">
-              Nantes · 06 62 38 18 00 · contact@beatriceblanchetiere.fr
+              Nantes · contact@beatriceblanchetiere.fr
             </p>
           </div>
 
@@ -33,13 +33,6 @@ const Footer = () => {
               aria-label="Email"
             >
               <Mail className="w-4 h-4 text-muted-foreground group-hover:text-primary-foreground" />
-            </a>
-            <a
-              href="tel:0662381800"
-              className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
-              aria-label="Téléphone"
-            >
-              <Phone className="w-4 h-4 text-muted-foreground group-hover:text-primary-foreground" />
             </a>
           </div>
         </div>

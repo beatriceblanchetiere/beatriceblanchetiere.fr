@@ -4,36 +4,36 @@ import { Button } from "@/components/ui/button";
 const offers = [
   {
     icon: Calendar,
-    price: "Gratuit",
+    price: "Offert · 30 minutes",
     title: "Appel découverte",
-    details: ["30 minutes pour faire connaissance", "Explorer vos besoins", "Sans engagement"],
+    details: ["Faire connaissance", "Explorer votre situation", "Sans engagement"],
     cta: "Réserver",
     href: "#contact",
     featured: true,
   },
   {
     icon: Users,
-    price: "À partir de 150€/séance",
+    price: "",
     title: "Coaching individuel",
-    details: ["Parcours de 6 à 10 séances", "Présentiel (Nantes) ou visio", "Accompagnement personnalisé"],
+    details: ["Un parcours sur mesure, à votre rythme", "Présentiel (Nantes) ou visio", "De 6 à 10 séances selon vos objectifs"],
     cta: "En savoir plus",
     href: "#contact",
     featured: false,
   },
   {
     icon: Sparkles,
-    price: "À partir de 150€/personne",
+    price: "",
     title: "Coaching collectif / Ateliers",
-    details: ["½ journée – 5 à 10 personnes", "Plan d'action structuré", "Dynamique de groupe"],
+    details: ["Intelligence collective et dynamique de groupe", "½ journée, 5 à 10 personnes", "Chaque participant repart avec un plan d'action"],
     cta: "En savoir plus",
     href: "#contact",
     featured: false,
   },
   {
     icon: GraduationCap,
-    price: "Sur devis",
+    price: "",
     title: "Formations sur mesure",
-    details: ["En entreprise ou en école", "Modules de 3h à 24h", "4,5/5 de satisfaction (Audencia)"],
+    details: ["Conçues pour votre contexte : entreprise ou école", "Modules de 3h à 24h", "4,5/5 de satisfaction (Audencia)"],
     cta: "Me contacter",
     href: "#contact",
     featured: false,
@@ -49,7 +49,7 @@ const ServicesSection = () => {
             Mes offres
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Un accompagnement adapté à chaque étape de votre parcours
+            Choisissez le format qui correspond à votre moment.
           </p>
         </div>
 
@@ -71,9 +71,11 @@ const ServicesSection = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary/15 transition-colors">
                 <offer.icon className="w-6 h-6 text-primary" />
               </div>
-              <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-1">
-                {offer.price}
-              </p>
+              {offer.price && (
+                <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-1">
+                  {offer.price}
+                </p>
+              )}
               <h3 className="font-display text-lg font-semibold text-foreground mb-4">
                 {offer.title}
               </h3>
