@@ -31,7 +31,7 @@ const ContactSection = () => {
               Prenons contact
             </h2>
             <p className="text-lg text-background/70 max-w-2xl mx-auto">
-              Prêt(e) à avancer ? Réservez un appel découverte gratuit ou envoyez-moi un message.
+              Vous avez un projet, une question, une envie de clarifier quelque chose. C'est exactement pour ça que je suis là.
             </p>
           </div>
 
