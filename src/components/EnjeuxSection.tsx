@@ -1,11 +1,12 @@
 import { Check } from "lucide-react";
 
 const enjeux = [
-  "Clarifier une vision professionnelle ambitieuse et réaliste",
-  "Renforcer sa posture et sa légitimité",
-  "Structurer une stratégie de transition",
-  "Prendre des décisions complexes avec discernement",
-  "Passer de la réflexion à l'action",
+  "Clarifier sa vision et définir un cap réaliste",
+  "Valider et structurer son projet entrepreneurial",
+  "Renforcer sa posture et sa légitimité de dirigeant",
+  "Construire une stratégie de transition cohérente",
+  "Prendre des décisions importantes avec discernement",
+  "Transformer ses réflexions en actions concrètes",
 ];
 
 const EnjeuxSection = () => {
