@@ -49,7 +49,7 @@ const ServicesSection = () => {
             Mes offres
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Un accompagnement adapté à chaque étape de votre parcours
+            Choisissez le format qui correspond à votre moment.
           </p>
         </div>
 
