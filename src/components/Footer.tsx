@@ -13,7 +13,7 @@ const Footer = () => {
               Coach professionnelle certifiée ICF Level 2 & RNCP
             </p>
             <p className="text-muted-foreground text-sm mt-1">
-              Nantes · 06 62 38 18 00 · contact@beatriceblanchetiere.fr
+              Nantes · contact@beatriceblanchetiere.fr
             </p>
           </div>
 
