@@ -4,17 +4,17 @@ const clients = [
   {
     icon: Briefcase,
     title: "Entrepreneurs",
-    description: "Structurer et légitimer un projet de reprise ou création d'entreprise.",
+    description: "Vous reprenez ou créez une entreprise et voulez bâtir une décision structurée, légitime et profondément alignée avec qui vous êtes.",
   },
   {
     icon: RefreshCw,
     title: "Managers & cadres",
-    description: "Affirmer sa posture de leader en évolution ou repositionnement.",
+    description: "Vous évoluez vers un rôle de dirigeant et souhaitez affirmer votre posture avec clarté et autorité naturelle.",
   },
   {
     icon: GraduationCap,
     title: "Professionnels en transition",
-    description: "Clarifier sa prochaine étape avec discernement et confiance.",
+    description: "Vous êtes à un tournant et choisissez d'avancer avec discernement, à votre rythme et en pleine confiance.",
   },
 ];
 
@@ -27,7 +27,7 @@ const ClientsSection = () => {
             Pour qui ?
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Je travaille avec des profils qui veulent prendre leur place de dirigeant avec clarté, confiance et méthode.
+            Je travaille avec des créateurs et repreneurs qui choisissent de prendre leur place de dirigeant avec confiance et méthode.
           </p>
         </div>
 
