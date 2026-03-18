@@ -22,7 +22,7 @@ const ExpertiseSection = () => {
               Coach certifiée <span className="text-foreground font-medium">ICF Level 2 & RNCP</span>, j'accompagne des créateurs et repreneurs d'entreprise dans leurs décisions les plus structurantes.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-5 text-base">
-              Mon parcours est celui d'une entrepreneuse : le marketing stratégique chez <span className="text-foreground font-medium">LVMH</span>, la création d'<span className="text-foreground font-medium">URBAIN</span> — institut de soin au masculin, plus de 500 clients accompagnés — puis le développement d'une activité de formation auprès des grandes écoles de commerce, dont <span className="text-foreground font-medium">Audencia</span> et l'<span className="text-foreground font-medium">ISG</span>.
+              Mon parcours est celui d'une entrepreneuse : le marketing stratégique chez <span className="text-foreground font-medium">LVMH</span>, la création d'<span className="text-foreground font-medium">URBAIN</span> — institut de soin au masculin, plus de 500 clients accompagnés — puis le développement d'une activité de formation auprès des grandes écoles de commerce, dont <span className="text-foreground font-medium">Audencia</span> et l'<span className="text-foreground font-medium">ISG Luxury Program</span>.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base">
               Je sais ce que c'est que de se lancer, de douter, de chercher sa place tout en gardant le cap. C'est cette expérience — autant que mes certifications — qui me permet de vous accompagner avec <span className="text-primary font-medium">exigence et bienveillance</span>.
