@@ -34,13 +34,6 @@ const Footer = () => {
             >
               <Mail className="w-4 h-4 text-muted-foreground group-hover:text-primary-foreground" />
             </a>
-            <a
-              href="tel:0662381800"
-              className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
-              aria-label="Téléphone"
-            >
-              <Phone className="w-4 h-4 text-muted-foreground group-hover:text-primary-foreground" />
-            </a>
           </div>
         </div>
 
