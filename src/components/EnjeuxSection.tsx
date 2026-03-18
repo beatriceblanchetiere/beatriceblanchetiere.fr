@@ -19,7 +19,7 @@ const EnjeuxSection = () => {
               Pour quels enjeux ?
             </h2>
             <p className="text-base md:text-lg text-muted-foreground">
-              Les situations dans lesquelles je vous accompagne
+              Ce que nous travaillons ensemble
             </p>
           </div>
 

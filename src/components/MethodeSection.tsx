@@ -4,20 +4,20 @@ const steps = [
   {
     icon: Search,
     number: "01",
-    title: "Clarification profonde",
-    description: "Identifier vos moteurs, vos forces distinctives et vos véritables priorités.",
+    title: "Clarté",
+    description: "Vos moteurs, vos forces, vos priorités. Ce qui fait de vous un dirigeant singulier.",
   },
   {
     icon: Map,
     number: "02",
-    title: "Structuration stratégique",
-    description: "Construire un plan cohérent et actionnable.",
+    title: "Stratégie",
+    description: "Un plan structuré, cohérent et ancré dans votre réalité.",
   },
   {
     icon: Rocket,
     number: "03",
-    title: "Mise en action engagée",
-    description: "Transformer les décisions en mouvements concrets et mesurables.",
+    title: "Action",
+    description: "Des décisions assumées. Des résultats concrets.",
   },
 ];
 

@@ -27,7 +27,7 @@ const ClientsSection = () => {
             Pour qui ?
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Je travaille avec des profils exigeants qui s'engagent dans une reprise ou une création d'entreprise et veulent en faire une décision stratégique maîtrisée, pas un saut dans le vide.
+            Je travaille avec des profils qui veulent prendre leur place de dirigeant avec clarté, confiance et méthode.
           </p>
         </div>
 

@@ -71,9 +71,11 @@ const ServicesSection = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary/15 transition-colors">
                 <offer.icon className="w-6 h-6 text-primary" />
               </div>
-              <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-1">
-                {offer.price}
-              </p>
+              {offer.price && (
+                <p className="text-xs font-semibold uppercase tracking-wider text-primary mb-1">
+                  {offer.price}
+                </p>
+              )}
               <h3 className="font-display text-lg font-semibold text-foreground mb-4">
                 {offer.title}
               </h3>

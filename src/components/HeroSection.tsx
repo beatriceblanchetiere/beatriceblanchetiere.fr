@@ -14,7 +14,7 @@ const HeroSection = () => {
             </p>
 
             <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl xl:text-[3.25rem] font-semibold text-foreground leading-[1.15] mb-5 opacity-0 animate-fade-in-up animation-delay-100">
-              Coaching stratégique pour dirigeants exigeants
+              Coach stratégique des créateurs & repreneurs d'entreprise
             </h1>
 
             <p className="font-display text-xl md:text-2xl text-primary italic mb-6 opacity-0 animate-fade-in-up animation-delay-150">
@@ -22,7 +22,7 @@ const HeroSection = () => {
             </p>
 
             <p className="text-base md:text-lg text-muted-foreground max-w-xl mb-10 leading-relaxed opacity-0 animate-fade-in-up animation-delay-200">
-              Vous venez de reprendre une entreprise ou de lancer la vôtre, et soudain, vous réalisez que personne ne vous a vraiment préparé à ça — ni à la solitude des décisions, ni à la question de la légitimité.
+              Vous venez de reprendre une entreprise ou de lancer la vôtre et vous découvrez ce que personne ne vous avait dit : la solitude des décisions, le doute sur sa légitimité, l'écart entre la vision et le quotidien. C'est exactement là que commence notre travail.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-up animation-delay-300">

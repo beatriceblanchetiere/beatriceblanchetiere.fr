@@ -40,11 +40,8 @@ const ContactSection = () => {
             <div className="bg-background/5 backdrop-blur-sm rounded-2xl p-8 border border-background/10 flex flex-col justify-center">
               <Calendar className="w-10 h-10 text-primary mb-6" />
               <h3 className="font-display text-2xl font-semibold text-background mb-4">
-                Réserver un appel découverte
+                Planifier un échange
               </h3>
-              <p className="text-background/70 mb-8 leading-relaxed">
-                30 minutes pour faire connaissance, explorer vos besoins et voir comment je peux vous accompagner. Sans engagement.
-              </p>
               <Button variant="hero" size="lg" className="w-fit group" asChild>
                 <a href="https://calendly.com/bblanchetiere/" target="_blank" rel="noopener noreferrer">
                   Choisir un créneau
