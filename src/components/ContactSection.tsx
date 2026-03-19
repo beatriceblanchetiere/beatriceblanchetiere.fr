@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Calendar, Send } from "lucide-react";
 import { toast } from "sonner";
+import { supabase } from "@/integrations/supabase/client";
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -12,10 +13,19 @@ const ContactSection = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    toast.success("Message envoyé avec succès ! Je vous répondrai rapidement.");
-    setFormData({ name: "", email: "", message: "" });
-    setIsSubmitting(false);
+    try {
+      const { data, error } = await supabase.functions.invoke("send-contact-email", {
+        body: formData,
+      });
+      if (error) throw error;
+      toast.success("Message envoyé avec succès ! Je vous répondrai rapidement.");
+      setFormData({ name: "", email: "", message: "" });
+    } catch (err) {
+      console.error("Email send error:", err);
+      toast.error("Erreur lors de l'envoi. Veuillez réessayer ou me contacter directement par email.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
