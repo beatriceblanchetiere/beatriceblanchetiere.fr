@@ -35,7 +35,7 @@ serve(async (req) => {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Site Béatrice Blanchétière <onboarding@resend.dev>",
+        from: "Béatrice Blanchétière <contact@beatriceblanchetiere.fr>",
         to: [TO_EMAIL],
         reply_to: email,
         subject: `Nouveau message de ${name}`,
