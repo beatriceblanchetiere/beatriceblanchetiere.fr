@@ -18,7 +18,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="font-display text-xl md:text-2xl text-primary italic mb-6 opacity-0 animate-fade-in-up animation-delay-150">
-              Vision · Positionnement · Décision
+              Clarté · Légitimité · Action
             </p>
 
             <p className="text-base md:text-lg text-muted-foreground max-w-xl mb-10 leading-relaxed opacity-0 animate-fade-in-up animation-delay-200">
