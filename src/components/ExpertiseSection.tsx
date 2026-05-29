@@ -1,4 +1,4 @@
-import { Award, Users, Clock } from "lucide-react";
+import { Award, Clock } from "lucide-react";
 
 const stats = [
   { icon: Clock, value: "25 ans", label: "d'expérience" },
