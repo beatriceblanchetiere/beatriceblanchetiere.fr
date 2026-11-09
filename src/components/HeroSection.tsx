@@ -22,7 +22,7 @@ const HeroSection = () => {
             </p>
 
             <p className="text-base md:text-lg text-muted-foreground max-w-xl mb-10 leading-relaxed opacity-0 animate-fade-in-up animation-delay-200">
-              Créer, reprendre, changer de cap, céder : vous arrivez à un moment où tout se joue. Les décisions qui s'annoncent engagent votre entreprise, vos équipes et vous-même, et vous les prenez souvent seul. Je vous aide à prendre du recul, à choisir et à passer à l'action.
+              Vous arrivez à un moment où tout se joue. Les décisions qui s'annoncent engagent votre entreprise, vos équipes et vous-même, et vous les prenez souvent seul. Je vous aide à prendre du recul, à choisir et à passer à l'action.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-up animation-delay-300">
