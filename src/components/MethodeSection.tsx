@@ -4,20 +4,20 @@ const steps = [
   {
     icon: Search,
     number: "01",
-    title: "Clarté",
-    description: "Vos moteurs, vos forces, vos priorités. Ce qui fait de vous un dirigeant singulier.",
+    title: "Faire le point",
+    description: "Poser la situation telle que vous la vivez : vos options, vos contraintes, ce que vous voulez au fond.",
   },
   {
     icon: Map,
     number: "02",
-    title: "Stratégie",
-    description: "Un plan structuré, cohérent et ancré dans votre réalité.",
+    title: "Choisir",
+    description: "Comparer les scénarios, mesurer les risques, puis décider.",
   },
   {
     icon: Rocket,
     number: "03",
-    title: "Action",
-    description: "Des décisions assumées. Des résultats concrets.",
+    title: "Agir",
+    description: "Un plan d'action daté, des points d'étape, et un regard extérieur jusqu'à la mise en œuvre.",
   },
 ];
 

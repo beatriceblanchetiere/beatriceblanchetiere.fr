@@ -1,4 +1,4 @@
-import { Calendar, Users, Sparkles, GraduationCap } from "lucide-react";
+import { Calendar, Users, Sparkles, GraduationCap, Compass } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const offers = [
@@ -8,8 +8,17 @@ const offers = [
     title: "Appel découverte",
     details: ["Faire connaissance", "Explorer votre situation", "Sans engagement"],
     cta: "Réserver",
-    href: "#contact",
+    href: "https://calendly.com/bblanchetiere",
     featured: true,
+  },
+  {
+    icon: Compass,
+    price: "Tarif communiqué lors de l'appel découverte",
+    title: "Séance de recul stratégique",
+    details: ["Une décision à prendre, un regard extérieur", "Vos options clarifiées en une séance", "Vous repartez avec une première étape concrète"],
+    cta: "Réserver un appel découverte",
+    href: "https://calendly.com/bblanchetiere",
+    featured: false,
   },
   {
     icon: Users,
@@ -53,7 +62,7 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {offers.map((offer) => (
             <div
               key={offer.title}

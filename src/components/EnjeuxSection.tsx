@@ -1,12 +1,12 @@
 import { Check } from "lucide-react";
 
 const enjeux = [
-  "Clarifier sa vision et définir un cap réaliste",
-  "Valider et structurer son projet entrepreneurial",
-  "Renforcer sa posture et sa légitimité de dirigeant",
-  "Construire une stratégie de transition cohérente",
-  "Prendre des décisions importantes avec discernement",
-  "Transformer ses réflexions en actions concrètes",
+  "Décider si vous développez, recentrez ou repositionnez votre activité",
+  "Préparer une reprise ou une cession, et choisir le bon moment",
+  "Trancher une décision qui vous bloque depuis des mois",
+  "Réorganiser votre entreprise quand elle a grandi",
+  "Trouver votre place face à vos associés et vos équipes",
+  "Passer de la réflexion à un plan d'action daté",
 ];
 
 const EnjeuxSection = () => {

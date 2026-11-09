@@ -10,7 +10,7 @@ const Footer = () => {
               Béatrice Blanchetière
             </h3>
             <p className="text-muted-foreground text-sm">
-              Coach professionnelle certifiée ICF Level 2 & RNCP
+              Coach de dirigeants · Certifiée RNCP
             </p>
             <p className="text-muted-foreground text-sm mt-1">
               Nantes · contact@beatriceblanchetiere.fr

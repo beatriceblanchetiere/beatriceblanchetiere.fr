@@ -1,8 +1,9 @@
-import { Award, Clock } from "lucide-react";
+import { Award, Clock, Building2 } from "lucide-react";
 
 const stats = [
-  { icon: Clock, value: "25 ans", label: "d'expérience" },
-  { icon: Award, value: "ICF Level 2", label: "Certification" },
+  { icon: Clock, value: "25 ans et plus", label: "de parcours, du luxe à l'entrepreneuriat" },
+  { icon: Building2, value: "2 entreprises", label: "créées et dirigées" },
+  { icon: Award, value: "RNCP", label: "Certification" },
 ];
 
 const ExpertiseSection = () => {
@@ -18,17 +19,14 @@ const ExpertiseSection = () => {
 
           <div className="bg-background rounded-2xl p-8 md:p-10 border border-border/40 shadow-card mb-10">
             <p className="text-muted-foreground leading-relaxed mb-5 text-base">
-              Coach certifiée <span className="text-foreground font-medium">ICF Level 2 & RNCP</span>, j'accompagne des créateurs et repreneurs d'entreprise dans leurs décisions les plus structurantes.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mb-5 text-base">
-              Mon parcours est celui d'une entrepreneuse : le marketing stratégique chez <span className="text-foreground font-medium">LVMH</span>, la création d'<span className="text-foreground font-medium">URBAIN</span> — institut de soin au masculin — puis le développement d'une activité de formation auprès des grandes écoles de commerce, dont <span className="text-foreground font-medium">Audencia</span> et l'<span className="text-foreground font-medium">ISG Luxury Program</span>.
+              J'ai commencé dans le luxe, chez <span className="text-foreground font-medium">Parfums Céline</span> puis au <span className="text-foreground font-medium">Bon Marché</span>. J'ai ensuite créé <span className="text-foreground font-medium">URBAIN</span>, un institut de soin au masculin, que j'ai dirigé trois ans avant de vendre le pas de porte. Je sais ce que vit un dirigeant qui se demande s'il doit céder. Aujourd'hui, je dirige ma deuxième entreprise, en libéral.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base">
-              Je sais ce que c'est que de se lancer, de douter, de chercher sa place tout en gardant le cap. C'est cette expérience — autant que mes certifications — qui me permet de vous accompagner avec <span className="text-primary font-medium">exigence et bienveillance</span>.
+              Depuis près de 20 ans, j'enseigne aussi le marketing stratégique et l'entrepreneuriat à <span className="text-foreground font-medium">Audencia</span>, avec 4,5/5 de satisfaction, et à l'<span className="text-foreground font-medium">ISG Luxury Management</span>. Coach certifiée RNCP, formée chez Coaching Ways France, école accréditée ICF Level 2, j'allie cette expérience de terrain à une méthode éprouvée.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 md:gap-6 max-w-sm mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 max-w-2xl mx-auto">
             {stats.map((stat, i) => (
               <div key={i} className="text-center bg-background rounded-xl p-5 border border-border/40">
                 <stat.icon className="w-6 h-6 text-primary mx-auto mb-3" />
