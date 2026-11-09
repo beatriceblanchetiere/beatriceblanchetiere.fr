@@ -23,7 +23,7 @@ const ExpertiseSection = () => {
               J'ai commencé dans le luxe, chez <span className="text-foreground font-medium">Parfums Céline</span> puis au <span className="text-foreground font-medium">Bon Marché</span>. Puis j'ai créé <span className="text-foreground font-medium">URBAIN</span>, un institut de soin au masculin, que j'ai dirigé trois ans avant de m'en séparer. Continuer, changer de cap, céder : ces questions, je me les suis posées.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base">
-              Depuis près de 20 ans, j'enseigne le marketing stratégique et l'entrepreneuriat à <span className="text-foreground font-medium">Audencia</span> (4,5/5 de satisfaction) et à l'<span className="text-foreground font-medium">ISG Luxury Management</span>. Coach certifiée RNCP, formée chez <span className="text-foreground font-medium">Coaching Ways France</span> (école accréditée ICF Level 2), je vous aide à prendre vos grandes décisions avec le regard d'une stratège et l'écoute d'une coach.
+              Depuis près de 20 ans, j'enseigne le marketing stratégique et l'entrepreneuriat à Audencia et à l'ISG Luxury Management. Coach certifiée RNCP, formée chez Coaching Ways France (école accréditée ICF Level 2), je vous aide à prendre vos grandes décisions avec le regard d'une stratège et l'écoute d'une coach.
             </p>
           </div>
 
