@@ -3,13 +3,13 @@ import { Briefcase, RefreshCw, GraduationCap } from "lucide-react";
 const clients = [
   {
     icon: Briefcase,
-    title: "Entrepreneurs",
-    description: "Vous reprenez ou créez une entreprise et voulez bâtir une décision structurée, légitime et profondément alignée avec qui vous êtes.",
+    title: "Dirigeants de PME",
+    description: "Votre entreprise tourne, mais la suite pose question : croissance, repositionnement, arrivée d'un associé, transmission.",
   },
   {
     icon: RefreshCw,
-    title: "Managers & cadres",
-    description: "Vous évoluez vers un rôle de dirigeant et souhaitez affirmer votre posture avec clarté et autorité naturelle.",
+    title: "Créateurs et repreneurs",
+    description: "Vous lancez ou reprenez une entreprise et voulez prendre vos premières décisions de dirigeant avec méthode.",
   },
   {
     icon: GraduationCap,
@@ -27,7 +27,7 @@ const ClientsSection = () => {
             Pour qui ?
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Je travaille avec des créateurs et repreneurs qui choisissent de prendre leur place de dirigeant — avec confiance et méthode.
+            J'accompagne les dirigeants de PME, créateurs et repreneurs, à chaque tournant de leur entreprise.
           </p>
         </div>
 
