@@ -47,7 +47,7 @@ const HeroSection = () => {
               <div className="absolute -inset-3 bg-gradient-to-br from-primary/15 to-primary/5 rounded-3xl blur-2xl" />
               <img
                 src={beatricePhoto}
-                alt="Béatrice Blanchetière — Coach professionnelle certifiée ICF"
+                alt="Béatrice Blanchetière — Coach de dirigeants à Nantes"
                 className="relative rounded-2xl shadow-xl w-full max-w-sm lg:max-w-md object-cover"
               />
             </div>
